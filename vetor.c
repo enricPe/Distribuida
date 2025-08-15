@@ -11,7 +11,7 @@ int main() {
     float soma = 0;
     for (int i = 0; i < n; i++){
         printf("\nInforme a %d ª idade: ", i+1);
-        scanf("%d", idades[i]);
+        scanf("%d", &idades[i]);
         soma += idades[i]; 
     }
     float media = soma/n;
